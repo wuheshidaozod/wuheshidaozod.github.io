@@ -1,0 +1,7 @@
+:root {
+  --font-color: "#000000";  /* 自定义你的正文颜色 */
+}
+::selection {
+  background-color: #FFD700; /* 选中区域背景色为金色 */
+  color: #000000;            /* 选中文本颜色为黑色 */
+}
