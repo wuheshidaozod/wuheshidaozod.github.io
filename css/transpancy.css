@@ -12,12 +12,12 @@
 .layout_post>#post,
 .read-mode .layout_post>#post {
     /* 以下代表透明度为0.9 */
-    background: rgba(255, 255, 255, .4);
+    background: rgba(255, 255, 255, .5);
 }
 
 /*侧边卡片的透明度 */
 :root {
-    --card-bg: rgba(255, 255, 255, .4);
+    --card-bg: rgba(255, 255, 255, .5);
 }
 
 /* 页脚透明 */

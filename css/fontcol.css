@@ -1,7 +1,13 @@
-:root {
-  --font-color: "#000000";  /* 自定义你的正文颜色 */
+/* 修改文章正文字体颜色 */
+.post-body, .article-content, .post-content {
+  color: #000000;
 }
-::selection {
-  background-color: #FFD700; /* 选中区域背景色为金色 */
-  color: #000000;            /* 选中文本颜色为黑色 */
+/* 修改正文中的超链接颜色 */
+.post-body a, .article-content a, .post-content a {
+  color: #ED6BC0;
 }
+
+/*::selection {
+  background-color: #FFD700;
+  color: #000000;            
+}*/
